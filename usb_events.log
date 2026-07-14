@@ -1,0 +1,278 @@
+============================================================
+  USB Device Control & Monitoring Framework  v1.0
+  Started: 2025-11-15 10:30:00
+============================================================
+
+[2025-11-15 10:30:00] [INFO ]  Whitelist loaded — 2 trusted device(s)
+[2025-11-15 10:30:00] [INFO ]  Baseline loaded — 1 drive(s)
+[2025-11-15 10:30:00] [INFO ]  Monitoring started — interval=5s — scans=10
+[2025-11-15 10:30:00] [INFO ]  Plug in or remove a USB drive to test!
+
+[2025-11-15 10:30:05] [INFO ]  --- Scan #1 ---
+[2025-11-15 10:30:05] [INFO ]  No USB changes in this scan.
+
+[2025-11-15 10:30:10] [INFO ]  --- Scan #2 ---
+[2025-11-15 10:30:11] [OK   ]  USB CONNECTED (Trusted): D: — MyUSBDrive [7.45 GB] Serial: A1B2C3D4
+
+[2025-11-15 10:30:15] [INFO ]  --- Scan #3 ---
+[2025-11-15 10:30:16] [ALERT]  USB CONNECTED (UNKNOWN!): E: — KINGSTON [15.89 GB] Serial: X9Y8Z7W6
+[2025-11-15 10:30:16] [ALERT]    --> This USB is NOT in your trusted whitelist!
+
+[2025-11-15 10:30:20] [INFO ]  --- Scan #4 ---
+[2025-11-15 10:30:21] [WARN ]  USB DISCONNECTED: D: — MyUSBDrive Serial: A1B2C3D4
+
+[2025-11-15 10:30:25] [INFO ]  --- Scan #5 ---
+[2025-11-15 10:30:25] [INFO ]  No USB changes in this scan.
+
+[2025-11-15 10:30:40] [WARN ]  Monitoring stopped by user (Ctrl+C).
+
+============================================================
+[2025-11-15 10:30:40] [INFO ]  FINAL SUMMARY
+============================================================
+[2025-11-15 10:30:40] [INFO ]  Total events:         3
+[2025-11-15 10:30:40] [INFO ]  Devices connected:    2
+[2025-11-15 10:30:40] [INFO ]  Devices disconnected: 1
+[2025-11-15 10:30:40] [ALERT]  Unknown USB devices:  1
+[2025-11-15 10:30:40] [ALERT]  UNKNOWN DEVICES FOUND:
+[2025-11-15 10:30:40] [ALERT]    Drive:E:  Label:KINGSTON  Serial:X9Y8Z7W6
+[2025-11-15 10:30:40] [INFO ]  Report saved to: usb_report.csv
+[2025-11-15 10:30:40] [INFO ]  Log saved to:    usb_events.log[2026-06-28 10:46:32] [INFO ]  Whitelist loaded — 2 trusted device(s)
+[2026-06-28 10:47:35] [OK   ]  Baseline created — 0 drive(s) saved to usb_baseline.json
+[2026-06-28 10:48:13] [INFO ]  Whitelist loaded — 2 trusted device(s)
+[2026-06-28 10:48:13] [INFO ]  Monitoring started — interval=5s — scans=10
+[2026-06-28 10:48:13] [INFO ]  --- Scan #1 ---
+[2026-06-28 10:48:13] [INFO ]  No USB changes in this scan.
+[2026-06-28 10:48:18] [INFO ]  --- Scan #2 ---
+[2026-06-28 10:48:19] [INFO ]  No USB changes in this scan.
+[2026-06-28 10:48:24] [INFO ]  --- Scan #3 ---
+[2026-06-28 10:48:24] [INFO ]  No USB changes in this scan.
+[2026-06-28 10:48:29] [INFO ]  --- Scan #4 ---
+[2026-06-28 10:48:29] [INFO ]  No USB changes in this scan.
+[2026-06-28 10:48:34] [INFO ]  --- Scan #5 ---
+[2026-06-28 10:48:34] [INFO ]  No USB changes in this scan.
+[2026-06-28 10:48:39] [INFO ]  --- Scan #6 ---
+[2026-06-28 10:48:40] [INFO ]  No USB changes in this scan.
+[2026-06-28 10:48:45] [INFO ]  --- Scan #7 ---
+[2026-06-28 10:48:45] [INFO ]  No USB changes in this scan.
+[2026-06-28 10:48:50] [INFO ]  --- Scan #8 ---
+[2026-06-28 10:48:50] [INFO ]  No USB changes in this scan.
+[2026-06-28 10:48:55] [INFO ]  --- Scan #9 ---
+[2026-06-28 10:48:55] [INFO ]  No USB changes in this scan.
+[2026-06-28 10:49:00] [INFO ]  --- Scan #10 ---
+[2026-06-28 10:49:01] [INFO ]  No USB changes in this scan.
+[2026-06-28 10:49:01] [INFO ]  FINAL SUMMARY
+[2026-06-28 10:49:01] [INFO ]  Total events:         0
+[2026-06-28 10:49:01] [INFO ]  Devices connected:    0
+[2026-06-28 10:49:01] [INFO ]  Devices disconnected: 0
+[2026-06-28 10:49:01] [INFO ]  Unknown USB devices:  0
+[2026-06-28 10:49:01] [INFO ]  Report saved to: usb_report.csv
+[2026-06-28 10:49:01] [INFO ]  Log saved to:    usb_events.log
+[2026-06-28 10:51:50] [INFO ]  Whitelist loaded — 2 trusted device(s)
+[2026-06-28 10:51:50] [INFO ]  Monitoring started — interval=5s — scans=10
+[2026-06-28 10:51:51] [INFO ]  --- Scan #1 ---
+[2026-06-28 10:51:51] [INFO ]  No USB changes in this scan.
+[2026-06-28 10:51:56] [INFO ]  --- Scan #2 ---
+[2026-06-28 10:51:56] [INFO ]  No USB changes in this scan.
+[2026-06-28 10:52:01] [INFO ]  --- Scan #3 ---
+[2026-06-28 10:52:02] [INFO ]  No USB changes in this scan.
+[2026-06-28 10:52:07] [INFO ]  --- Scan #4 ---
+[2026-06-28 10:52:07] [INFO ]  No USB changes in this scan.
+[2026-06-28 10:52:12] [INFO ]  --- Scan #5 ---
+[2026-06-28 10:52:13] [INFO ]  No USB changes in this scan.
+[2026-06-28 10:52:18] [INFO ]  --- Scan #6 ---
+[2026-06-28 10:52:18] [INFO ]  No USB changes in this scan.
+[2026-06-28 10:52:23] [INFO ]  --- Scan #7 ---
+[2026-06-28 10:52:23] [INFO ]  No USB changes in this scan.
+[2026-06-28 10:52:28] [INFO ]  --- Scan #8 ---
+[2026-06-28 10:52:29] [INFO ]  No USB changes in this scan.
+[2026-06-28 10:52:34] [INFO ]  --- Scan #9 ---
+[2026-06-28 10:52:34] [INFO ]  No USB changes in this scan.
+[2026-06-28 10:52:39] [INFO ]  --- Scan #10 ---
+[2026-06-28 10:52:39] [INFO ]  No USB changes in this scan.
+[2026-06-28 10:52:39] [INFO ]  FINAL SUMMARY
+[2026-06-28 10:52:39] [INFO ]  Total events:         0
+[2026-06-28 10:52:39] [INFO ]  Devices connected:    0
+[2026-06-28 10:52:39] [INFO ]  Devices disconnected: 0
+[2026-06-28 10:52:39] [INFO ]  Unknown USB devices:  0
+[2026-06-28 10:52:39] [INFO ]  Report saved to: usb_report.csv
+[2026-06-28 10:52:39] [INFO ]  Log saved to:    usb_events.log
+[2026-06-28 10:52:56] [INFO ]  Whitelist loaded — 2 trusted device(s)
+[2026-06-28 10:52:56] [INFO ]  Monitoring started — interval=5s — scans=10
+[2026-06-28 10:52:56] [INFO ]  --- Scan #1 ---
+[2026-06-28 10:52:57] [INFO ]  No USB changes in this scan.
+[2026-06-28 10:53:02] [INFO ]  --- Scan #2 ---
+[2026-06-28 10:53:02] [INFO ]  No USB changes in this scan.
+[2026-06-28 10:53:07] [INFO ]  --- Scan #3 ---
+[2026-06-28 10:53:07] [INFO ]  No USB changes in this scan.
+[2026-06-28 10:53:12] [INFO ]  --- Scan #4 ---
+[2026-06-28 10:53:13] [INFO ]  No USB changes in this scan.
+[2026-06-28 10:53:18] [INFO ]  --- Scan #5 ---
+[2026-06-28 10:53:18] [INFO ]  No USB changes in this scan.
+[2026-06-28 10:53:23] [INFO ]  --- Scan #6 ---
+[2026-06-28 10:53:24] [INFO ]  No USB changes in this scan.
+[2026-06-28 10:53:29] [INFO ]  --- Scan #7 ---
+[2026-06-28 10:53:29] [INFO ]  No USB changes in this scan.
+[2026-06-28 10:53:34] [INFO ]  --- Scan #8 ---
+[2026-06-28 10:53:34] [INFO ]  No USB changes in this scan.
+[2026-06-28 10:53:39] [INFO ]  --- Scan #9 ---
+[2026-06-28 10:53:40] [INFO ]  No USB changes in this scan.
+[2026-06-28 10:53:45] [INFO ]  --- Scan #10 ---
+[2026-06-28 10:53:45] [INFO ]  No USB changes in this scan.
+[2026-06-28 10:53:45] [INFO ]  FINAL SUMMARY
+[2026-06-28 10:53:45] [INFO ]  Total events:         0
+[2026-06-28 10:53:45] [INFO ]  Devices connected:    0
+[2026-06-28 10:53:45] [INFO ]  Devices disconnected: 0
+[2026-06-28 10:53:45] [INFO ]  Unknown USB devices:  0
+[2026-06-28 10:53:45] [INFO ]  Report saved to: usb_report.csv
+[2026-06-28 10:53:45] [INFO ]  Log saved to:    usb_events.log
+[2026-06-28 10:54:15] [WARN ]  No USB drives connected. Plug one in first.
+[2026-06-28 10:56:27] [INFO ]  Whitelist loaded — 2 trusted device(s)
+[2026-06-28 10:56:36] [OK   ]  Baseline created — 0 drive(s) saved to usb_baseline.json
+[2026-06-28 10:56:41] [INFO ]  Whitelist loaded — 2 trusted device(s)
+[2026-06-28 10:56:41] [INFO ]  Monitoring started — interval=5s — scans=10
+[2026-06-28 10:56:42] [INFO ]  --- Scan #1 ---
+[2026-06-28 10:56:43] [INFO ]  No USB changes in this scan.
+[2026-06-28 10:56:48] [INFO ]  --- Scan #2 ---
+[2026-06-28 10:56:48] [INFO ]  No USB changes in this scan.
+[2026-06-28 10:56:53] [INFO ]  --- Scan #3 ---
+[2026-06-28 10:56:53] [INFO ]  No USB changes in this scan.
+[2026-06-28 10:56:58] [INFO ]  --- Scan #4 ---
+[2026-06-28 10:56:59] [INFO ]  No USB changes in this scan.
+[2026-06-28 10:57:04] [INFO ]  --- Scan #5 ---
+[2026-06-28 10:57:04] [INFO ]  No USB changes in this scan.
+[2026-06-28 10:57:09] [INFO ]  --- Scan #6 ---
+[2026-06-28 10:57:09] [INFO ]  No USB changes in this scan.
+[2026-06-28 10:57:14] [INFO ]  --- Scan #7 ---
+[2026-06-28 10:57:15] [INFO ]  No USB changes in this scan.
+[2026-06-28 10:57:20] [INFO ]  --- Scan #8 ---
+[2026-06-28 10:57:20] [INFO ]  No USB changes in this scan.
+[2026-06-28 10:57:25] [INFO ]  --- Scan #9 ---
+[2026-06-28 10:57:25] [INFO ]  No USB changes in this scan.
+[2026-06-28 10:57:30] [INFO ]  --- Scan #10 ---
+[2026-06-28 10:57:30] [INFO ]  No USB changes in this scan.
+[2026-06-28 10:57:30] [INFO ]  FINAL SUMMARY
+[2026-06-28 10:57:30] [INFO ]  Total events:         0
+[2026-06-28 10:57:30] [INFO ]  Devices connected:    0
+[2026-06-28 10:57:30] [INFO ]  Devices disconnected: 0
+[2026-06-28 10:57:30] [INFO ]  Unknown USB devices:  0
+[2026-06-28 10:57:30] [INFO ]  Report saved to: usb_report.csv
+[2026-06-28 10:57:30] [INFO ]  Log saved to:    usb_events.log
+[2026-06-28 11:04:25] [INFO ]  Whitelist loaded — 2 trusted device(s)
+[2026-06-28 11:04:33] [OK   ]  Baseline created — 0 drive(s) saved to c:\Users\doshi\Desktop\USB\usb_baseline.json
+[2026-06-28 11:04:53] [INFO ]  Whitelist loaded — 2 trusted device(s)
+[2026-06-28 11:04:53] [INFO ]  Monitoring started — interval=5s — scans=10
+[2026-06-28 11:04:53] [INFO ]  --- Scan #1 ---
+[2026-06-28 11:04:53] [INFO ]  No USB changes in this scan.
+[2026-06-28 11:04:58] [INFO ]  --- Scan #2 ---
+[2026-06-28 11:04:59] [INFO ]  No USB changes in this scan.
+[2026-06-28 11:05:04] [INFO ]  --- Scan #3 ---
+[2026-06-28 11:05:05] [ALERT]  USB CONNECTED (UNKNOWN!): E: — No Label [29.24 GB] Serial: DD296DD3
+[2026-06-28 11:05:05] [ALERT]    --> This USB is NOT in your trusted whitelist!
+[2026-06-28 11:05:10] [INFO ]  --- Scan #4 ---
+[2026-06-28 11:05:10] [INFO ]  No USB changes in this scan.
+[2026-06-28 11:05:15] [INFO ]  --- Scan #5 ---
+[2026-06-28 11:05:15] [INFO ]  No USB changes in this scan.
+[2026-06-28 11:05:20] [INFO ]  --- Scan #6 ---
+[2026-06-28 11:05:20] [WARN ]  USB DISCONNECTED: E: — No Label Serial: DD296DD3
+[2026-06-28 11:05:25] [INFO ]  --- Scan #7 ---
+[2026-06-28 11:05:26] [INFO ]  No USB changes in this scan.
+[2026-06-28 11:05:31] [INFO ]  --- Scan #8 ---
+[2026-06-28 11:05:31] [INFO ]  No USB changes in this scan.
+[2026-06-28 11:05:36] [INFO ]  --- Scan #9 ---
+[2026-06-28 11:05:37] [INFO ]  No USB changes in this scan.
+[2026-06-28 11:05:42] [INFO ]  --- Scan #10 ---
+[2026-06-28 11:05:42] [INFO ]  No USB changes in this scan.
+[2026-06-28 11:05:42] [INFO ]  FINAL SUMMARY
+[2026-06-28 11:05:42] [INFO ]  Total events:         2
+[2026-06-28 11:05:42] [INFO ]  Devices connected:    1
+[2026-06-28 11:05:42] [INFO ]  Devices disconnected: 1
+[2026-06-28 11:05:42] [ALERT]  Unknown USB devices:  1
+[2026-06-28 11:05:42] [ALERT]  UNKNOWN DEVICES FOUND:
+[2026-06-28 11:05:42] [ALERT]    Drive:E:  Label:No Label  Serial:DD296DD3
+[2026-06-28 11:05:42] [INFO ]  Report saved to: c:\Users\doshi\Desktop\USB\usb_report.csv
+[2026-06-28 11:05:42] [INFO ]  Log saved to:    c:\Users\doshi\Desktop\USB\usb_events.log
+[2026-06-28 11:06:18] [INFO ]  Whitelist loaded — 2 trusted device(s)
+[2026-06-28 11:06:18] [INFO ]  Monitoring started — interval=5s — scans=10
+[2026-06-28 11:06:18] [INFO ]  --- Scan #1 ---
+[2026-06-28 11:06:18] [INFO ]  No USB changes in this scan.
+[2026-06-28 11:06:23] [INFO ]  --- Scan #2 ---
+[2026-06-28 11:06:24] [INFO ]  No USB changes in this scan.
+[2026-06-28 11:06:29] [INFO ]  --- Scan #3 ---
+[2026-06-28 11:06:30] [INFO ]  No USB changes in this scan.
+[2026-06-28 11:06:35] [INFO ]  --- Scan #4 ---
+[2026-06-28 11:06:36] [INFO ]  No USB changes in this scan.
+[2026-06-28 11:06:41] [INFO ]  --- Scan #5 ---
+[2026-06-28 11:06:42] [INFO ]  No USB changes in this scan.
+[2026-06-28 11:07:18] [INFO ]  Whitelist loaded — 2 trusted device(s)
+[2026-06-28 11:07:22] [OK   ]  Baseline created — 0 drive(s) saved to C:\Users\doshi\Desktop\USB\usb_baseline.json
+[2026-06-28 11:07:50] [INFO ]  Whitelist loaded — 2 trusted device(s)
+[2026-06-28 11:09:12] [INFO ]  Whitelist loaded — 2 trusted device(s)
+[2026-06-28 11:09:32] [OK   ]  Baseline created — 0 drive(s) saved to C:\Users\doshi\Desktop\USB\usb_baseline.json
+[2026-06-28 11:09:52] [INFO ]  Whitelist loaded — 2 trusted device(s)
+[2026-06-28 11:09:52] [INFO ]  Monitoring started — interval=5s — scans=10
+[2026-06-28 11:09:53] [INFO ]  --- Scan #1 ---
+[2026-06-28 11:09:53] [INFO ]  No USB changes in this scan.
+[2026-06-28 11:09:58] [INFO ]  --- Scan #2 ---
+[2026-06-28 11:09:59] [INFO ]  No USB changes in this scan.
+[2026-06-28 11:10:04] [INFO ]  --- Scan #3 ---
+[2026-06-28 11:10:04] [ALERT]  USB CONNECTED (UNKNOWN!): E: — No Label [29.24 GB] Serial: DD296DD3
+[2026-06-28 11:10:04] [ALERT]    --> This USB is NOT in your trusted whitelist!
+[2026-06-28 11:10:09] [INFO ]  --- Scan #4 ---
+[2026-06-28 11:10:09] [INFO ]  No USB changes in this scan.
+[2026-06-28 11:10:14] [INFO ]  --- Scan #5 ---
+[2026-06-28 11:10:15] [WARN ]  USB DISCONNECTED: E: — No Label Serial: DD296DD3
+[2026-06-28 11:10:20] [INFO ]  --- Scan #6 ---
+[2026-06-28 11:10:20] [INFO ]  No USB changes in this scan.
+[2026-06-28 11:10:25] [INFO ]  --- Scan #7 ---
+[2026-06-28 11:10:25] [INFO ]  No USB changes in this scan.
+[2026-06-28 11:10:30] [INFO ]  --- Scan #8 ---
+[2026-06-28 11:10:31] [INFO ]  No USB changes in this scan.
+[2026-06-28 11:10:36] [INFO ]  --- Scan #9 ---
+[2026-06-28 11:10:36] [INFO ]  No USB changes in this scan.
+[2026-06-28 11:10:41] [INFO ]  --- Scan #10 ---
+[2026-06-28 11:10:42] [INFO ]  No USB changes in this scan.
+[2026-06-28 11:10:42] [INFO ]  FINAL SUMMARY
+[2026-06-28 11:10:42] [INFO ]  Total events:         2
+[2026-06-28 11:10:42] [INFO ]  Devices connected:    1
+[2026-06-28 11:10:42] [INFO ]  Devices disconnected: 1
+[2026-06-28 11:10:42] [ALERT]  Unknown USB devices:  1
+[2026-06-28 11:10:42] [ALERT]  UNKNOWN DEVICES FOUND:
+[2026-06-28 11:10:42] [ALERT]    Drive:E:  Label:No Label  Serial:DD296DD3
+[2026-06-28 11:10:42] [INFO ]  Report saved to: C:\Users\doshi\Desktop\USB\usb_report.csv
+[2026-06-28 11:10:42] [INFO ]  Log saved to:    C:\Users\doshi\Desktop\USB\usb_events.log
+[2026-06-28 11:13:43] [WARN ]  No USB drives connected. Plug one in first.
+[2026-06-28 11:28:36] [INFO ]  Connected drives:
+[2026-06-28 11:28:52] [WARN ]  Invalid input.
+[2026-06-28 11:29:48] [INFO ]  Connected drives:
+[2026-06-28 11:29:49] [INFO ]  Whitelist loaded — 2 trusted device(s)
+[2026-06-28 11:29:49] [INFO ]  Whitelist saved — 3 trusted device(s)
+[2026-06-28 11:29:49] [OK   ]  Added to whitelist: No Label (Serial: DD296DD3)
+[2026-06-28 11:35:06] [INFO ]  Whitelist loaded — 3 trusted device(s)
+[2026-06-28 11:35:06] [INFO ]  Monitoring started — interval=5s — scans=10
+[2026-06-28 11:35:06] [INFO ]  --- Scan #1 ---
+[2026-06-28 11:35:06] [INFO ]  No USB changes in this scan.
+[2026-06-28 11:35:11] [INFO ]  --- Scan #2 ---
+[2026-06-28 11:35:11] [INFO ]  No USB changes in this scan.
+[2026-06-28 11:35:16] [INFO ]  --- Scan #3 ---
+[2026-06-28 11:35:16] [WARN ]  USB DISCONNECTED: E: — No Label Serial: DD296DD3
+[2026-06-28 11:35:21] [INFO ]  --- Scan #4 ---
+[2026-06-28 11:35:21] [OK   ]  USB CONNECTED (Trusted): E: — No Label [29.24 GB] Serial: DD296DD3
+[2026-06-28 11:35:26] [INFO ]  --- Scan #5 ---
+[2026-06-28 11:35:27] [INFO ]  No USB changes in this scan.
+[2026-06-28 11:35:32] [INFO ]  --- Scan #6 ---
+[2026-06-28 11:35:32] [INFO ]  No USB changes in this scan.
+[2026-06-28 11:35:37] [INFO ]  --- Scan #7 ---
+[2026-06-28 11:35:37] [INFO ]  No USB changes in this scan.
+[2026-06-28 11:35:42] [INFO ]  --- Scan #8 ---
+[2026-06-28 11:35:42] [INFO ]  No USB changes in this scan.
+[2026-06-28 11:35:47] [INFO ]  --- Scan #9 ---
+[2026-06-28 11:35:47] [INFO ]  No USB changes in this scan.
+[2026-06-28 11:35:52] [INFO ]  --- Scan #10 ---
+[2026-06-28 11:35:52] [INFO ]  No USB changes in this scan.
+[2026-06-28 11:35:52] [INFO ]  FINAL SUMMARY
+[2026-06-28 11:35:52] [INFO ]  Total events:         2
+[2026-06-28 11:35:52] [INFO ]  Devices connected:    1
+[2026-06-28 11:35:52] [INFO ]  Devices disconnected: 1
+[2026-06-28 11:35:52] [INFO ]  Unknown USB devices:  0
+[2026-06-28 11:35:52] [INFO ]  Report saved to: C:\Users\doshi\Desktop\USB\usb_report.csv
+[2026-06-28 11:35:52] [INFO ]  Log saved to:    C:\Users\doshi\Desktop\USB\usb_events.log
